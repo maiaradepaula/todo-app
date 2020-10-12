@@ -8,7 +8,7 @@ import Routes from '../main/Routes'
 
 export default props => (
     <div className='container'>
-       <Menu/>
-       <Routes /> 
-       </div>
+        <Menu />
+        <Routes />
+    </div>
 )
