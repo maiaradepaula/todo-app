@@ -1,4 +1,5 @@
 import React from 'react'
+import IconButton from '../template/IconButton'
 import Grid from './Grid'
 
 export default props => (
@@ -8,11 +9,7 @@ export default props => (
             </input>
         </Grid>
         <Grid cols='12 3 2 ' >
-            <button className='btn btn-primary'>
-                <i className='fa fa-plus'></i>
-            </button>
-
+            <IconButton style='primary' icon='plus' onClick={props.handleAdd}></IconButton>
         </Grid>
-
     </div>
 )
